@@ -6,6 +6,7 @@ export default function App() {
     <BrowserRouter>
     <Routes>
       <Route path="verify" element={<Verify />} />
+      <Route path="*" element={<Verify />} />
     </Routes>
   </BrowserRouter>
   );
